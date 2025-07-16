@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manish Mobile World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9fafb; color: #1f2937; }
+    header {
+      background: url('https://i.imgur.com/CuTcuXM.jpg') no-repeat center center/cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      background: rgba(0,0,0,0.5);
+      padding: 15px 30px;
+      border-radius: 10px;
+    }
+    .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #4f46e5; margin-bottom: 20px; }
+    .brands, .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; }
+    .product-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      background: #fff;
+    }
+    .product-card img { max-width: 100%; height: 120px; object-fit: contain; margin-bottom: 10px; }
+    .slideshow {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px;
+      gap: 15px;
+    }
+    .slideshow img {
+      height: 200px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .contact {
+      background: #e0e7ff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .contact p { margin: 8px 0; }
+    .buttons a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 20px;
+      background: #4f46e5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    iframe { width: 100%; height: 300px; border: 0; border-radius: 10px; margin-top: 20px; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e5e7eb;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manish Mobile World</h1>
+  </header>
+
+  <div class="section contact">
+    <h2>Contact Us</h2>
+    <p>📞 <a href="tel:+917353000111">+91 73530 00111</a></p>
+    <p>💬 <a href="https://wa.me/917353000111">WhatsApp Chat</a></p>
+    <p>📧 mistorechannasandra@gmail.com</p>
+    <div class="buttons">
+      <a href="tel:+917353000111">Call Now</a>
+      <a href="https://wa.me/917353000111">WhatsApp</a>
+    </div>
+    <iframe src="https://maps.google.com/maps?q=manish%20mobile%20world%20channasandra&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </div>
+
+  <div class="section">
+    <h2>Brands We Sell</h2>
+    <div class="brands">
+      <div>Apple</div><div>OnePlus</div><div>Nothing</div><div>Vivo</div><div>Redmi</div><div>Xiaomi</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Popular Products</h2>
+    <div class="products">
+      <div class="product-card"><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-finish-select-202309-6-7inch-naturaltitanium_AV1?wid=400&hei=400" /><div>iPhone 15 Pro Max</div></div>
+      <div class="product-card"><img src="https://image01.oneplus.net/ebp/202403/26/1-m00-4d-80-cpgvqmz5fs-afyg2aaooxxgzzjqe431.png" /><div>OnePlus Nord CE 4</div></div>
+      <div class="product-card"><img src="https://nothingtech.imgix.net/phones/2a/black-front.png" /><div>Nothing Phone 2a</div></div>
+      <div class="product-card"><img src="https://www.vivo.com/content/dam/vivo/in/products/v50/gallery/vivo-V50-black-front.png" /><div>Vivo V50</div></div>
+      <div class="product-card"><img src="https://i01.appmifile.com/webfile/globalimg/in/cms/DB6EAF9E-BC24-AD5B-631D-122A44DBE7C3.jpg" /><div>Redmi Note 14</div></div>
+      <div class="product-card"><img src="https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-15/specs01.png" /><div>Xiaomi 15</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Happy Customers</h2>
+    <div class="slideshow">
+      <img src="https://i.imgur.com/IgBTRzs.jpg" />
+      <img src="https://i.imgur.com/tO5UjRg.jpg" />
+      <img src="https://i.imgur.com/0oyfUOx.jpg" />
+      <img src="https://i.imgur.com/Z47x8Fe.jpg" />
+      <img src="https://i.imgur.com/FpNVoaY.jpg" />
+      <img src="https://i.imgur.com/hVV8j4d.jpg" />
+    </div>
+  </div>
+
+  <footer>&copy; 2025 Manish Mobile World. All rights reserved.</footer>
+</body>
+</html>
